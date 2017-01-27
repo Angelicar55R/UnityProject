@@ -22,7 +22,8 @@ if (Input.GetKeyDown (KeyCode.Backspace))
 		
 if (Input.GetKeyDown (KeyCode.Escape))
 			GetComponent<Renderer> ().material.color = Color.yellow;
-				
+	
+//all colors have been successfully adding and are working.			
 	
 }
 }
