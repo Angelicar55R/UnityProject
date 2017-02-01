@@ -1,0 +1,26 @@
+Some definitions
+Classes = blueprints 
+With these classes you can group together certain variables. It helps break up the work into sections making things organized and easier 
+to read.  
+
+Semicolons are used to end a statement unless you are using a curvy brace. 
+Curvy brace are always put in the beginning of the code and at the end when you are done with the class. You will also finish up in an 
+even amount of braces.
+
+Dots in code help separate things like objects/commands. In every command there will be a certain amount of elements. Say you use the 
+command Transform you will then have to choose between 3 actions Position, Scale or Rotation.  Once you chose your action/element you will
+then choose X, Y, or Z, all this is needed to make the whole line of code work. Think of it like an address without the State on the card,
+you cannot send out the card. 
+
+Indenting your code isn’t necessary but it makes the code easier to read if you are working in a group. 
+Comments can be used in the code without interfering with anything, there are two different ways to add a comment. The Frist is using  // 
+by putting these two slashes in the beginning of your line and then writing whatever note you want to leave behind. The second way is 
+using   /* */  with this one you will start by adding /*  in the beginning of you note  and finally ending it off with */
+Example:  /* this gives the sphere 1.5 speed of rotation 
+           * line 4 can randomize the speed 
+          */   
+Also with the second method it can help disable code, you just have to add it before you statement and after your curvy brace. This a
+good way to let you see your unfinished code, while working on other sections. This also help not interrupt Unity when it reads your code.
+
+
+
