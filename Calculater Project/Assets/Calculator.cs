@@ -7,17 +7,19 @@ using System;
 public class Calculator : MonoBehaviour {
 	public InputField field1;
 	public InputField field2;
-	int firstNum;
-	int secondNum;
-	int i = 0;
+	float firstNum;
+	float secondNum;
+
 	// Use this for initialization
 	public void Math (string operation) {
 
-		int Answer;
+		float Answer;
+		firstNum = int.Parse(field1.text);
+		secondNum = int.Parse (field2.text);
 
-		if (operation == "x") {
+		if (operation == "*") {
 			Answer = firstNum * secondNum;
-				print (firstNum + " x " + secondNum + " = " + Answer);
+				print (firstNum + " *" + secondNum + " = " + Answer);
 		} 
 			else if (operation == "/") {
 			Answer = firstNum / secondNum;
@@ -35,17 +37,8 @@ public class Calculator : MonoBehaviour {
 		{
 				print ("Error");
 		}
-		//int i = int32.Parse (textBox1.Text);
-
-
-		if (int32.Parse(textBox1.Text, out i)){
-		}
-			else 
-		{
-			print ("Error");
-		}
-
-
+		//int i = int32.Parse (textBox1.Text)
+			
 	}
 
 }
